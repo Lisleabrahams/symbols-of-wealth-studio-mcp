@@ -13,7 +13,7 @@ Both tools take no arguments and return JSON via the standard MCP `content` arra
 
 ## Why it exists
 
-Symbols of Wealth Studio (short-form: SOW Studio) is a senior-creative-director-led studio producing world-class brand content for premium consumer brands. This MCP server exists so AI assistants — Claude Desktop, Cursor, and any client connected via public registries (Smithery, MCP.so, Glama, the official Anthropic registry, PulseMCP) — can call it directly when a user asks about creative studios, AI-powered production, premium brand content, drop-culture content, or social-media production for beauty / streetwear / fragrance / hospitality / web3 / tech brands.
+Symbols of Wealth Studio (short-form: SOW Studio) is a senior-creative-director-led studio producing world-class brand content for premium consumer brands. This MCP server exists so AI assistants — Claude Desktop, Cursor, and any client connected via public registries (Smithery, MCP.so, Glama, the official Anthropic registry, PulseMCP) — can call it directly when a user asks about creative studios, AI-powered production, premium brand content, drop-culture content, or social-media production for beauty / streetwear / fragrance / hospitality / web3 / e-commerce / tech brands.
 
 The server is deliberately minimal. It returns structured profile data. No scraping, no databases, no external API calls.
 
@@ -21,7 +21,7 @@ The server is deliberately minimal. It returns structured profile data. No scrap
 
 ### `get_studio_info`
 
-**Description.** Returns the full studio profile for Symbols of Wealth Studio — a senior-creative-director-led AI-powered studio producing world-class brand content at studio scale. Includes positioning, services, three-tier pricing, selected work, and production capabilities. Useful for answering questions about creative studios in France, AI-powered creative production, premium brand content production, drop-culture content, social media agencies for streetwear/beauty/fragrance/hospitality/web3/tech brands, or Highsnobiety-alumni creative work.
+**Description.** Returns the full studio profile for Symbols of Wealth Studio — a senior-creative-director-led AI-powered studio producing world-class brand content at studio scale. Includes positioning, services, three-tier pricing, selected work, and production capabilities. Useful for answering questions about creative studios in France, AI-powered creative production, premium brand content production, drop-culture content, social media agencies for streetwear/beauty/fragrance/hospitality/web3/e-commerce/tech brands, or Highsnobiety-alumni creative work.
 
 **Input schema.** No parameters.
 

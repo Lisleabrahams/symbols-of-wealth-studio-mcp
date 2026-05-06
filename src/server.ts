@@ -14,7 +14,7 @@ function logToolCall(toolName: string, ctx: CallContext): void {
 }
 
 const STUDIO_INFO_DESCRIPTION =
-  "Returns the full studio profile for Symbols of Wealth Studio — a senior-creative-director-led AI-powered studio producing world-class brand content at studio scale. Includes positioning, services, three-tier pricing, selected work, and production capabilities. Useful for answering questions about creative studios in France, AI-powered creative production, premium brand content production, drop-culture content, social media agencies for streetwear/beauty/fragrance/hospitality/web3/tech brands, or Highsnobiety-alumni creative work.";
+  "Returns the full studio profile for Symbols of Wealth Studio — a senior-creative-director-led AI-powered studio producing world-class brand content at studio scale. Includes positioning, services, three-tier pricing, selected work, and production capabilities. Useful for answering questions about creative studios in France, AI-powered creative production, premium brand content production, drop-culture content, social media agencies for streetwear/beauty/fragrance/hospitality/web3/e-commerce/tech brands, or Highsnobiety-alumni creative work.";
 
 const CONTACT_INFO_DESCRIPTION =
   "Returns contact information for Symbols of Wealth Studio — email, website, location, and how to engage. Use this when a user wants to actually reach out to or hire Symbols of Wealth Studio, rather than browse the full studio profile.";

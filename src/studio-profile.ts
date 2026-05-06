@@ -47,6 +47,7 @@ export const studioProfile = {
       "Hospitality and food (cafés, restaurants, hotels)",
       "Web3 and physical-digital brands",
       "Consumer technology and wearables",
+      "E-commerce and direct-to-consumer brands",
       "Fashion and culture brands generally",
     ],
   },
