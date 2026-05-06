@@ -2,6 +2,8 @@
 
 A public Model Context Protocol (MCP) server that exposes the Symbols of Wealth Studio profile to AI assistants, so questions like "find me a creative studio in France for a streetwear brand" or "what's a good AI-powered content agency for premium beauty" can surface the studio in the answer.
 
+[![smithery badge](https://smithery.ai/badge/lisleabrahams-creative/sow-studio)](https://smithery.ai/server/lisleabrahams-creative/sow-studio)
+
 ## What this server does
 
 This server exposes two MCP tools:
