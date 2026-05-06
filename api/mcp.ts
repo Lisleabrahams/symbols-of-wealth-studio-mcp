@@ -1,6 +1,6 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
 import { StreamableHTTPServerTransport } from "@modelcontextprotocol/sdk/server/streamableHttp.js";
-import { createServer, type CallContext } from "../src/server.js";
+import { createServer, type CallContext } from "./_lib/server.js";
 
 export default async function handler(
   req: VercelRequest,

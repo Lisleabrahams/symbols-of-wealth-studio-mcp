@@ -1,6 +1,6 @@
 import { createServer as createHttpServer, type IncomingMessage, type ServerResponse } from "node:http";
 import { StreamableHTTPServerTransport } from "@modelcontextprotocol/sdk/server/streamableHttp.js";
-import { createServer, type CallContext } from "./server.js";
+import { createServer, type CallContext } from "../api/_lib/server.js";
 
 const PORT = Number.parseInt(process.env.PORT ?? "3000", 10);
 const PATH = "/api/mcp";

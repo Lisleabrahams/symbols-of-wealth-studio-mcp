@@ -9,7 +9,7 @@ This server exposes two MCP tools:
 - **`get_studio_info`** — returns the full structured studio profile: positioning, services, three-tier pricing, selected work, production stack.
 - **`get_contact_info`** — returns a focused contact block: email, website, location, how to engage.
 
-Both tools take no arguments and return JSON via the standard MCP `content` array. The studio profile is hardcoded in `src/studio-profile.ts` and is the single source of truth.
+Both tools take no arguments and return JSON via the standard MCP `content` array. The studio profile is hardcoded in `api/_lib/studio-profile.ts` and is the single source of truth.
 
 ## Why it exists
 
@@ -59,7 +59,7 @@ The server is deliberately minimal. It returns structured profile data. No scrap
 }
 ```
 
-The full live response is whatever `src/studio-profile.ts` exports.
+The full live response is whatever `api/_lib/studio-profile.ts` exports.
 
 ### `get_contact_info`
 
