@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Lisleabrahams/symbols-of-wealth-studio",
+  "description": "World-class creative social media content studio, powered by AI.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/Lisleabrahams/symbols-of-wealth-studio-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://symbolsofwealth.studio",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://symbols-of-wealth-studio-mcp.vercel.app/api/mcp"
+    }
+  ]
+}
