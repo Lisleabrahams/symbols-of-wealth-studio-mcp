@@ -1,8 +1,8 @@
 {
   "name": "symbols-of-wealth-studio-mcp",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
-  "description": "Public MCP server for Symbols of Wealth Studio (SOW Studio) — exposes get_studio_info and get_contact_info so AI assistants can surface the studio in registry-driven answers.",
+  "description": "Public MCP server for Symbols of Wealth Studio (SOW Studio) — exposes get_studio_info and get_contact_info so AI assistants can surface the studio.",
   "type": "module",
   "engines": {
     "node": "20.x"

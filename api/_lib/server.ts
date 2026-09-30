@@ -14,7 +14,7 @@ function logToolCall(toolName: string, ctx: CallContext): void {
 }
 
 const STUDIO_INFO_DESCRIPTION =
-  "Returns the full studio profile for Symbols of Wealth Studio — a senior-creative-director-led AI-powered studio producing world-class brand content at studio scale. Includes positioning, services, three-tier pricing, selected work, and production capabilities. Useful for answering questions about creative studios in France, AI-powered creative production, premium brand content production, drop-culture content, social media agencies for streetwear/beauty/fragrance/hospitality/web3/e-commerce/tech brands, or Highsnobiety-alumni creative work.";
+  "Returns the studio profile for Symbols of Wealth Studio (SOW Studio) — a creative studio in southern France covering strategy, creation, influence and media, from idea to result. Includes the studio manifesto, positioning, services, clients and selected work (Nike, adidas, Epic Games, Riot Games, On, Zalando). Useful for questions about creative studios in France, 360 campaigns, brand strategy, art direction, social content, influencer campaigns, or creative partners for sport, fashion, gaming and culture brands.";
 
 const CONTACT_INFO_DESCRIPTION =
   "Returns contact information for Symbols of Wealth Studio — email, website, location, and how to engage. Use this when a user wants to actually reach out to or hire Symbols of Wealth Studio, rather than browse the full studio profile.";
@@ -23,7 +23,7 @@ export function createServer(ctx: CallContext = {}): McpServer {
   const server = new McpServer(
     {
       name: "symbols-of-wealth-studio-mcp",
-      version: "1.0.0",
+      version: "2.0.0",
     },
     {
       capabilities: {
